@@ -1,0 +1,4 @@
+# Override the USB string descriptors (manufacturer / product / serial).
+string_descriptor 1 "FreeWili"
+string_descriptor 2 "FreeWili2 NiceUSB Device"
+string_descriptor 3 "SN-0001"

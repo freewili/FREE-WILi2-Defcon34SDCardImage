@@ -1,0 +1,7 @@
+# Act as a USB host: enumerate the device on the host port and assert it's HID.
+mode host
+host enumerate
+host wait connect 5s
+host info
+expect connected
+expect class hid

@@ -1,0 +1,43 @@
+{
+  "autoAdvance": true,
+  "chapters": [
+    {
+      "title": "Welcome to fwcom",
+      "image": "test_card.png",
+      "duration": 10.0,
+      "events": [
+        {
+          "title": "Meet the player",
+          "start": 0.5,
+          "end": 4.5,
+          "target": "window:Tutorial Video",
+          "highlight": {
+            "style": "outline",
+            "color": "#FFC800",
+            "label": "This is the Tutorial Player"
+          }
+        },
+        {
+          "title": "Open the main console",
+          "start": 5.0,
+          "end": 9.5,
+          "target": "window:Main Console",
+          "highlight": {
+            "style": "glow",
+            "color": "#46C8FF",
+            "label": "The Main Console just opened"
+          },
+          "actions": [
+            "open-window:Main Console",
+            "focus-window:Main Console"
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Streaming video chapter",
+      "video": "https://download.blender.org/peach/trailer/trailer_480p.mov",
+      "events": []
+    }
+  ]
+}

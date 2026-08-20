@@ -1,0 +1,15 @@
+# Trace a rough circle with the pointer.
+device mouse
+connect
+move 10 -4
+move 8 -8
+move 4 -10
+move -4 -10
+move -8 -8
+move -10 -4
+move -10 4
+move -8 8
+move -4 10
+move 4 10
+move 8 8
+move 10 4

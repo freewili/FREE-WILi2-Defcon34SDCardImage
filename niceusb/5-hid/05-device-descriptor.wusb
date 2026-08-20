@@ -1,0 +1,4 @@
+# Send a raw 18-byte USB device descriptor (VID 0xCAFE / PID 0x4004).
+device_descriptor {
+  12 01 00 02 00 00 00 40 FE CA 04 40 00 01 01 02 03 01
+}

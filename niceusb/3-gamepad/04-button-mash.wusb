@@ -1,0 +1,9 @@
+# Rapidly mash button 0.
+device gamepad
+connect
+repeat 8 {
+pad button 0 down
+delay 40ms
+pad button 0 up
+delay 40ms
+}

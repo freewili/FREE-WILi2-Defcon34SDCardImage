@@ -1,0 +1,6 @@
+# Ctrl+S to save.
+device keyboard
+connect
+key down LCTRL
+key tap S
+key up LCTRL

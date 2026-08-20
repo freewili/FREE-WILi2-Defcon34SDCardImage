@@ -1,0 +1,6 @@
+# Alt+Tab to switch windows.
+device keyboard
+connect
+key down LALT
+key tap TAB
+key up LALT

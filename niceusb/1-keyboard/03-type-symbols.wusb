@@ -1,0 +1,4 @@
+# Shifted punctuation is handled automatically.
+device keyboard
+connect
+type "!@#$%^&*()_+-=[]{}|;:',.<>/?"

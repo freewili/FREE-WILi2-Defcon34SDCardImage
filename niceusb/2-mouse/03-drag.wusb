@@ -1,0 +1,6 @@
+# Press, drag, release with the left button.
+device mouse
+connect
+button down left
+move 120 80
+button up left

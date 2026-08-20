@@ -1,0 +1,4 @@
+# Easter egg: stream a hidden looped clip from flash instead of a tone.
+# (Open the "niceusb Audio" recording device and have a listen...)
+device audio
+audio rickroll

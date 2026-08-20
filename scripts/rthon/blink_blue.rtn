@@ -1,0 +1,18 @@
+# Flash board LED 4 blue, ten times.
+# Deliberately a different LED and colour from blink_red.rtn so the two are
+# told apart at a glance when launched from the Scripts picker.
+
+LED = 4
+COUNT = 10
+ON_MS = 200
+OFF_MS = 200
+
+print("blink_blue start")
+
+for i in range(COUNT):
+    dev.gui.set_led_color(LED, 0, 0, 255, 0, 0)
+    wait_for_ms(ON_MS)
+    dev.gui.set_led_color(LED, 0, 0, 0, 0, 0)
+    wait_for_ms(OFF_MS)
+
+print("blink_blue done")

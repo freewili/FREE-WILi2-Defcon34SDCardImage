@@ -1,0 +1,11 @@
+# Press a button and work the d-pad (hat).
+device gamepad
+connect
+pad button 0 down
+delay 100ms
+pad button 0 up
+hat up
+delay 100ms
+hat right
+delay 100ms
+hat center

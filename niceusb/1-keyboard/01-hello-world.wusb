@@ -1,0 +1,4 @@
+# Type a greeting on the host.
+device keyboard
+connect
+type "Hello from FreeWili2 NiceUSB!"

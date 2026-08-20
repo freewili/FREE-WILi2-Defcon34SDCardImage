@@ -1,0 +1,7 @@
+# Match the last input report against a byte pattern ('..' = wildcard; edit to fit).
+mode host
+host enumerate
+host wait connect 5s
+host hid poll 3s
+expect report-count >= 1
+expect report input [.. 04 .. ..]

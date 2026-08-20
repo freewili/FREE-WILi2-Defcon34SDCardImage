@@ -1,0 +1,10 @@
+# Count down with one-second pauses.
+device keyboard
+connect
+type "3"
+delay 1s
+type "2"
+delay 1s
+type "1"
+delay 1s
+type "go!\n"

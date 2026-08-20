@@ -1,0 +1,19 @@
+# Play a C-major scale, then silence (0 Hz).
+device audio
+audio tone 262hz
+delay 300ms
+audio tone 294hz
+delay 300ms
+audio tone 330hz
+delay 300ms
+audio tone 349hz
+delay 300ms
+audio tone 392hz
+delay 300ms
+audio tone 440hz
+delay 300ms
+audio tone 494hz
+delay 300ms
+audio tone 523hz
+delay 300ms
+audio tone 0hz

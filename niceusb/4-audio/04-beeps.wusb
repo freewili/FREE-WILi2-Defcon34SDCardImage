@@ -1,0 +1,8 @@
+# Three short beeps.
+device audio
+repeat 3 {
+audio tone 880hz
+delay 100ms
+audio tone 0hz
+delay 100ms
+}

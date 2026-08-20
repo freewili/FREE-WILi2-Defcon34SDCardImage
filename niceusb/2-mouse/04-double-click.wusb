@@ -1,0 +1,6 @@
+# Two quick left clicks.
+device mouse
+connect
+click left
+delay 60ms
+click left

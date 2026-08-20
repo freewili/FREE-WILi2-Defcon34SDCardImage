@@ -1,0 +1,6 @@
+# Capture live HID input reports for 3s (move/type the device); expect at least one.
+mode host
+host enumerate
+host wait connect 5s
+host hid poll 3s
+expect report-count >= 1

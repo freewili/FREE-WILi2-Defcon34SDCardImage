@@ -1,0 +1,7 @@
+# Assert the device's interface-0 HID report-descriptor length (edit the value).
+mode host
+host enumerate
+host wait connect 5s
+host info
+expect class hid
+expect descriptor hid len 94

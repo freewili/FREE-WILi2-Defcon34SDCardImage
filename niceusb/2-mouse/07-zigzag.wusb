@@ -1,0 +1,7 @@
+# Zig-zag the pointer across the screen.
+device mouse
+connect
+repeat 6 {
+move 40 20
+move 40 -20
+}

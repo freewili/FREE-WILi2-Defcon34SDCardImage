@@ -1,0 +1,6 @@
+# Ctrl+A to select everything.
+device keyboard
+connect
+key down LCTRL
+key tap A
+key up LCTRL

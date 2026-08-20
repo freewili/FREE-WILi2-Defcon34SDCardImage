@@ -1,0 +1,3 @@
+# Emit an A4 (440 Hz) tone on the UAC2 mic.
+device audio
+audio tone 440hz

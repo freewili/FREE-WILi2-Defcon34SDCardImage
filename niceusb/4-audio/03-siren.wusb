@@ -1,0 +1,9 @@
+# Two-tone siren.
+device audio
+repeat 5 {
+audio tone 440hz
+delay 250ms
+audio tone 660hz
+delay 250ms
+}
+audio tone 0hz

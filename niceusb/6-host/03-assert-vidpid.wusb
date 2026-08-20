@@ -1,0 +1,6 @@
+# Guard a device test: assert the exact device by VID/PID (edit for your device).
+mode host
+host enumerate
+host wait connect 5s
+expect connected
+expect vidpid 0x1532 0x00b6

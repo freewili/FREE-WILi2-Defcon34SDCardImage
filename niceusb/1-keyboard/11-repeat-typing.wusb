@@ -1,0 +1,6 @@
+# Repeat a block five times.
+device keyboard
+connect
+repeat 5 {
+type "spam "
+}

@@ -1,0 +1,7 @@
+# Move the pointer in a square.
+device mouse
+connect
+move 100 0
+move 0 100
+move -100 0
+move 0 -100

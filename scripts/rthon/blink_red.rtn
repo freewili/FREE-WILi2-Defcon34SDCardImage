@@ -1,0 +1,17 @@
+# Flash board LED 0 red, ten times.
+# Test script for the Scripts launcher's file-list picker.
+
+LED = 0
+COUNT = 10
+ON_MS = 200
+OFF_MS = 200
+
+print("blink_red start")
+
+for i in range(COUNT):
+    dev.gui.set_led_color(LED, 255, 0, 0, 0, 0)
+    wait_for_ms(ON_MS)
+    dev.gui.set_led_color(LED, 0, 0, 0, 0, 0)
+    wait_for_ms(OFF_MS)
+
+print("blink_red done")

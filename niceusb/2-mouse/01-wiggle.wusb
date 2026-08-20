@@ -1,0 +1,7 @@
+# Jiggle the pointer so the screen never sleeps.
+device mouse
+connect
+repeat 10 {
+move 15 0
+move -15 0
+}

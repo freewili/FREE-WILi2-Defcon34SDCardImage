@@ -1,0 +1,19 @@
+# Tap gamepad buttons 0 through 7 in turn.
+device gamepad
+connect
+pad button 0 down
+pad button 0 up
+pad button 1 down
+pad button 1 up
+pad button 2 down
+pad button 2 up
+pad button 3 down
+pad button 3 up
+pad button 4 down
+pad button 4 up
+pad button 5 down
+pad button 5 up
+pad button 6 down
+pad button 6 up
+pad button 7 down
+pad button 7 up

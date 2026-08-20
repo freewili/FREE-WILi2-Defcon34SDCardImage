@@ -1,0 +1,6 @@
+# Wait up to 30s for a device to be plugged into the host port, then identify it.
+mode host
+host enumerate
+host wait connect 30s
+expect connected
+host info

@@ -1,0 +1,6 @@
+# Scroll down, pause, then scroll back up.
+device mouse
+connect
+repeat 5 { scroll -3 }
+delay 300ms
+repeat 5 { scroll 3 }

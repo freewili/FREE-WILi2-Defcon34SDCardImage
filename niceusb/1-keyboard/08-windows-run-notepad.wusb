@@ -1,0 +1,8 @@
+# Win+R opens the Run dialog, then launch Notepad.
+device keyboard
+connect
+key down LGUI
+key tap R
+key up LGUI
+delay 500ms
+type "notepad\n"

@@ -1,0 +1,10 @@
+# Ctrl+C then Ctrl+V (hold the modifier around a tap).
+device keyboard
+connect
+key down LCTRL
+key tap C
+key up LCTRL
+delay 200ms
+key down LCTRL
+key tap V
+key up LCTRL

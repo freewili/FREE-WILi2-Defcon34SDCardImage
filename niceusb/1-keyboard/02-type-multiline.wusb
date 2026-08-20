@@ -1,0 +1,4 @@
+# \n presses Enter, so this types three lines.
+device keyboard
+connect
+type "Line one\nLine two\nLine three\n"

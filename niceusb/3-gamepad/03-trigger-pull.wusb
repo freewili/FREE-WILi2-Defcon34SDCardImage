@@ -1,0 +1,10 @@
+# Pull and release the analog triggers (Z / RZ axes).
+device gamepad
+connect
+axis z 127
+delay 200ms
+axis z 0
+delay 200ms
+axis rz 127
+delay 200ms
+axis rz 0

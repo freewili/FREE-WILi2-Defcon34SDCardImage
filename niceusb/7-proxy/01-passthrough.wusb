@@ -1,0 +1,6 @@
+# Pass-through (MITM): clone the host-port device onto the native USB port so the
+# PC sees it, and forward its input through niceusb to the PC for 20s.
+mode proxy
+host enumerate
+host wait connect 5s
+proxy run 20s

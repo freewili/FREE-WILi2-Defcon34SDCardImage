@@ -1,0 +1,20 @@
+# Spin the d-pad (hat) through all eight directions.
+device gamepad
+connect
+hat up
+delay 80ms
+hat upright
+delay 80ms
+hat right
+delay 80ms
+hat downright
+delay 80ms
+hat down
+delay 80ms
+hat downleft
+delay 80ms
+hat left
+delay 80ms
+hat upleft
+delay 80ms
+hat center

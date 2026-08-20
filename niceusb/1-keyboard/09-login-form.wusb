@@ -1,0 +1,7 @@
+# Fill a username/password form: user, Tab, password, Enter.
+device keyboard
+connect
+type "myusername"
+key tap TAB
+type "s3cr3t-pass"
+key tap ENTER
